@@ -1,0 +1,17 @@
+{
+    "name": "savemyeosram",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "binaryen": "^37.0.0",
+        "eosjs": "^15.0.3",
+        "nconf": "^0.10.0"
+    }
+}
