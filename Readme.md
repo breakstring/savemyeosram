@@ -21,19 +21,19 @@
 ### 安全风险提示
 
 除了 EOS 自身的 [eosjs]("https://github.com/EOSIO/eosjs" "eosjs") 库用于处理和EOS的一些功能，以及 [nconf]("https://www.npmjs.com/package/nconf" "nconf") 库用于处理命令参数之外，尽可能的没有引入其他第三方开源组件来减少安全风险。同时本软件完全开源，您完全可以放心的使用或者参考我的示例自行来开发一个新版的。
-但是，本软件/源代码并无法保证其完全的安全性。所以，在使用本工具时，您认可自行承担使用本工具带来的一切后果和安全风险。
+但是，本软件/源代码并无法保证其完全的安全性。**所以，在使用本工具时，您认可自行承担使用本工具带来的一切后果和安全风险。**
 
 ### 环境准备
 
 - 本工具运行在Node环境下，我的开发环境是Node v9.11.1。您可以从[Nodejs官方网站]("https://nodejs.org/en/") 下载。理论上以前v8.x的版本或者现在最新的v10.x的版本都行。
 -  下载本工具的源代码或者压缩包：
     -  git方式： ``` git clone https://github.com/breakstring/savemyeosram.git ```
-    -  直接下载压缩包并解压： 
+    -  直接下载压缩包并解压： [v1.0]("https://github.com/breakstring/savemyeosram/releases/tag/v1.0")
 - 打开一个命令终端（例如：Windows下的cmd或者Powershell，macOS下的终端等等。。。。）在工具的根目录下执行 ```npm install```来安装它附带需要的一些库文件。
 
 ### 运行方式
 
-在终端里执行：
+在终端里执行(别忘了替换上你的账户名和私钥)：
 ```bash
 node index.js --account "你的账户名" --privatekey "你的私钥"
 ```
