@@ -53,6 +53,7 @@ RAM usage after set contract:7918/600186
     - http://mainnet.genereos.io
 - 默认代码中部署的是 hello 合约，它占用大约30K。如果您觉得还希望再释放点（毕竟是白花花的银子），可以在部署 hello 后修改 index.js 中的第38行，将 hello 修改为 empty 即可。（在某些时候直接部署 empty 会出错，通过部署系统的hello合约后再部署empty一般问题不大）
 - 有时候总有一些莫名其妙的错误。。。所以检查一下是不是你把私钥或者账户名写错了。
+- **释放了 eosio.token 合约你之前发的代币就没了，别人那里也查不到了。**
 
 ### 您的支持是我的动力
 
